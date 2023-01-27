@@ -1,0 +1,41 @@
+*{
+    font-family: sans-serif;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    position: relative;
+    padding-bottom: 14px;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-left: 1.5em;
+}
+
+.title{
+    font-weight: bold;
+    margin-bottom: 0.4em;
+}
+
+.desc{
+    color:gray;
+}
+
+*{
+    padding: 0;
+    margin:0;
+}
+
+.profile-picture{
+    width:60px;
+    border-radius: 50%;
+}
+
+.wrapper{
+    margin: 50px 30px;
+}
